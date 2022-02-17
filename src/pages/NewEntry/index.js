@@ -20,7 +20,7 @@ const NewEntry = ({route, navigation}) => {
         address: null,
         latitude: null,
         longitude: null,
-        // category: {id: null, 'Selecione'},
+        category: {id: null, name: 'Selecione'},
       };
 
   const [amount, setAmount] = useState(entry.amount);
